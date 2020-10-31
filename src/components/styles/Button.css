@@ -1,0 +1,33 @@
+.portfoly_btn a {
+  color: #fff;
+  font-size: 12px;
+  position: relative;
+  font-weight: 600;
+  letter-spacing: 5px;
+}
+.portfoly_btn a:hover {
+  color: #fff;
+}
+
+.portfoly_btn a::before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  border: 2px solid #fff;
+  background: 0 0;
+  border-radius: 90%;
+  top: -8px;
+  position: absolute;
+  transition: 0.3s;
+}
+.portfoly_btn a:hover::before {
+  width: calc(100% + 30px);
+  height: 52px;
+  border-radius: 50px;
+  top: -18px;
+}
+.portfoly_btn a span {
+  transition: 0.3s;
+  display: inline-block;
+  margin-left: 40px;
+}

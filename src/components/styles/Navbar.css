@@ -1,0 +1,86 @@
+.bg_nav {
+  background-color: transparent;
+  position: absolute !important;
+  z-index: 1000;
+  width: 100%;
+}
+
+.bg_nav .navbar-brand {
+  height: 60px;
+  width: 43px;
+  background-color: #fff;
+  color: #000;
+  font-size: 45px;
+  font-weight: 900;
+  position: relative;
+  line-height: 0;
+}
+
+.bg_nav .navbar-brand span {
+  position: absolute;
+  top: 41px;
+  left: -4px;
+}
+
+.bg_nav .nav-link {
+  color: #fff;
+}
+.scrolled {
+  position: fixed !important;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  transition: 0.5s all ease-in-out;
+}
+
+.menu-icon {
+  display: none;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  font-size: 22px;
+}
+
+.menu-icon:focus {
+  outline: none;
+}
+.navabr-list {
+  display: flex !important;
+  flex-basis: auto;
+  width: 100%;
+}
+@media screen and (max-width: 960px) {
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-30%, 30%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+  .navabr-list {
+    position: absolute;
+    top: 75px;
+    left: -100%;
+    height: 100vh;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+  }
+  .navabr-list.active {
+    left: 0;
+    opacity: 1;
+    background-color: #000;
+  }
+  .navbar-nav.ml-auto {
+    margin-left: 30px !important;
+  }
+  .scrolled {
+    background-color: #000;
+    transition: none;
+  }
+}

@@ -1,0 +1,31 @@
+.header {
+  background-color: #000;
+}
+.header .left {
+  padding: 100px 0;
+}
+.header .left h1 {
+  color: #fff;
+  font-size: 85px;
+  line-height: 85px;
+  letter-spacing: -2.5px;
+  margin-bottom: 45px;
+}
+
+.header .left p {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.header .right {
+  position: relative;
+}
+.header .right img {
+  position: absolute;
+  top: 150px;
+  height: 550px;
+  width: 100%;
+  filter: grayscale(100%);
+}
