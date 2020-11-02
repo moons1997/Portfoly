@@ -2,10 +2,15 @@ import React from "react";
 import { FaPhone, FaTelegram } from "react-icons/fa";
 import { ImGooglePlus3 } from "react-icons/im";
 import "../styles/Contact.css";
+import bg from "../../bg.png";
 
 const Contac = () => {
   return (
-    <div className="contact" id="contact">
+    <div
+      className="contact"
+      id="contact"
+      style={{ backgroundImage: `url(${bg})` }}
+    >
       <div className="container">
         <h1>Contacts</h1>
 

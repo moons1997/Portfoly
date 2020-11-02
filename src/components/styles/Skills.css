@@ -1,6 +1,9 @@
 .skills {
   background-color: #000;
   padding: 100px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 .skills h1 {
   font-size: 70px;
@@ -129,4 +132,10 @@
 .skills .skill_item h3 {
   margin-top: 10px;
   font-weight: 900;
+}
+
+@media screen and (max-width: 960px) {
+  .beckEnd .col-lg-3:nth-child(3) .img img {
+    width: 77%;
+  }
 }

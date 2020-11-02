@@ -31,11 +31,10 @@ export const dataHeader = {
 
 // --- About ---
 export const dataAbout = {
-  vs: `I am Umarali Mengliyev, I was born on September 15, 2001 year in the
-    Samarkand region and is currently studying at Tashkent University of
-    Information Technologies. I studied Frontend at the PDP IT Academy. My
-    technical skills: HTML 5, CSS 3, SASS, BOOTSTRAP 4, JS, JQUERY, REACT
-    JS, REDUX. My goal: I am looking for a sincere team. I can promise to
+  vs: `I am Umarali Mengliyev, I was born on January 19, 1997 year in the
+   Surkhandarya region and is currently studying at National University of Uzbekistan. My
+    technical skills: HTML 5, CSS 3, BOOTSTRAP 4, JS, JQUERY, REACT
+    JS, REDUX, php, MySQL, Yii2, Python(beginer). My goal: I am looking for a sincere team. I can promise to
     be stronger by working on myself, and I won’t stop there. I want to
     have a place in your team in the future!`,
 };
@@ -45,10 +44,13 @@ export const dataWork = [
   {
     id: 1,
     img: "test.png",
-    info: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-    Dicta ut optio beatae doloremque, maiores, iusto perferendis ratione 
-    pariatur ex, quaerat repellat nihil quia labore quibusdam asperiores! 
-    Aliquid deserunt beatae eaque.`,
-    url: "#",
+    info: `This web application was created using technologies such as React JS. Lawish`,
+    url: "https://lawish.netlify.app",
+  },
+  {
+    id: 2,
+    img: "ToDo.png",
+    info: `This web application was created using technologies such as React JS, no responsive. Lawish`,
+    url: "https://lawish.netlify.app",
   },
 ];

@@ -1,6 +1,9 @@
 .contact {
   padding: 100px 0;
   background-color: #000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
 .contact h1 {

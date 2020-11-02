@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="footer" style={{ padding: "25px 0", textAlign: "center" }}>
       <div className="container">
         <p style={{ marginBottom: "0", fontSize: "18px", fontWeight: "600" }}>
-          Copyright © 2020
+          © 2020 Portfoly
         </p>
       </div>
     </div>

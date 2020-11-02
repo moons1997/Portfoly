@@ -24,6 +24,23 @@
 
 .bg_nav .nav-link {
   color: #fff;
+  position: relative;
+  margin-right: 5px;
+}
+.bg_nav .nav-link::before {
+  /* border-bottom: 1px solid #fff; */
+  display: block;
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  bottom: 0;
+  left: -0px;
+  transition: all 0.5s ease-in-out;
+}
+.bg_nav .nav-link:hover::before {
+  width: 100%;
 }
 .scrolled {
   position: fixed !important;

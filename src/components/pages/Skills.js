@@ -11,15 +11,16 @@ import {
 import { SiRedux, SiPhp, SiMysql } from "react-icons/si";
 import { Progress } from "antd";
 import "../styles/Skills.css";
+import bg from "../../bg.png";
 
 const Skills = () => {
   return (
-    <div className="skills">
+    <div className="skills" style={{ backgroundImage: `url(${bg})` }}>
       <div className="container">
         <h1>Technical skills</h1>
         <h2 className="mb-5">Front End</h2>
         <div className="row frontEnd">
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-md-6">
             <div className="skill_item">
               <div className="img">
                 <TiHtml5 className="img" />
@@ -34,7 +35,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-md-6">
             <div className="skill_item">
               <div className="img">
                 <DiCss3 className="img" />
@@ -44,7 +45,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-md-6">
             <div className="skill_item">
               <div className="img">
                 <DiBootstrap className="img" />
@@ -54,7 +55,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-md-6">
             <div className="skill_item">
               <div className="img">
                 <DiJavascript1 className="img" />
@@ -64,7 +65,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-md-6">
             <div className="skill_item">
               <div className="img">
                 <DiJqueryLogo className="img" />
@@ -74,7 +75,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-md-6">
             <div className="skill_item">
               <div className="img">
                 <DiReact className="img" />
@@ -84,7 +85,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-md-6">
             <div className="skill_item">
               <div className="img">
                 <SiRedux className="img" />
@@ -97,7 +98,7 @@ const Skills = () => {
 
         <h2 className="mb-5">Back End</h2>
         <div className="row beckEnd">
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-md-6">
             <div className="skill_item">
               <div className="img">
                 <SiPhp className="img" />
@@ -106,7 +107,7 @@ const Skills = () => {
               <h3>PHP</h3>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-md-6">
             <div className="skill_item">
               <div className="img">
                 <SiMysql className="img" />
@@ -117,7 +118,7 @@ const Skills = () => {
               </h3>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-md-6">
             <div className="skill_item">
               <div className="img">
                 <img src="./images/yii.png" alt="yii_logo" />
@@ -128,7 +129,7 @@ const Skills = () => {
               </h3>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-md-6">
             <div className="skill_item">
               <div className="img">
                 <DiPython className="img" />
