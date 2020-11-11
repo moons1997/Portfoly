@@ -15,8 +15,9 @@ const Works = () => {
                 <div className="img">
                   <img src={`./images/${data.img}`} alt={`${data.info}`} />
                 </div>
-                <p>{data.info}</p>
                 <Button title="View project" url={data.url} target="_blank" />
+
+                <p className="mt-3">{data.info}</p>
               </div>
             </div>
           ))}

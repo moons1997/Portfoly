@@ -53,4 +53,10 @@ export const dataWork = [
     info: `This web application was created using technologies such as React JS, no responsive. Lawish`,
     url: "https://lawish.netlify.app",
   },
+  {
+    id: 3,
+    img: "akaPhone.png",
+    info: `This web application was created using technologies such as React JS, no responsive, (being developed). AkaPhone`,
+    url: "https://aka-phone.netlify.app",
+  },
 ];
