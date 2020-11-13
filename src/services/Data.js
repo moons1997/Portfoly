@@ -51,12 +51,36 @@ export const dataWork = [
     id: 2,
     img: "ToDo.png",
     info: `This web application was created using technologies such as React JS, no responsive. Lawish`,
-    url: "https://lawish.netlify.app",
+    url: "https://to-do-list-m.netlify.app/",
   },
   {
     id: 3,
     img: "akaPhone.png",
     info: `This web application was created using technologies such as React JS, no responsive, (being developed). AkaPhone`,
     url: "https://aka-phone.netlify.app",
+  },
+  {
+    id: 4,
+    img: "gok5.png",
+    info: `This web application was created using technologies such as Html, Css, JS and Bootstrap.`,
+    url: "https://gok5.netlify.app",
+  },
+  {
+    id: 5,
+    img: "surxon.png",
+    info: `This web application was created using technologies such as Html, Css, JS and Bootstrap.`,
+    url: "https://surxandaryo.netlify.app/",
+  },
+  {
+    id: 6,
+    img: "baby.png",
+    info: `This web application was created using technologies such as Html, Css, JS and Bootstrap.`,
+    url: "https://baby-m.netlify.app",
+  },
+  {
+    id: 7,
+    img: "7shagov.png",
+    info: `This web application was created using technologies such as Html, Css, JS and Bootstrap.`,
+    url: "https://7shagov.netlify.app",
   },
 ];
